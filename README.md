@@ -1,7 +1,8 @@
-# MIT-BIH Atrial Fibrillation Detection Project
+# 🩺 Early-Detection-of-Atrial-Fibrilation
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Electrocardiogram.png" alt="ECG Example" width="500"/>
+  <h2>📊 ECG Signal Analysis for Atrial Fibrillation Detection</h2>
+  <em>Using Machine Learning & Deep Learning Approaches</em>
 </p>
 
 <p align="center">
@@ -20,15 +21,16 @@ This project analyzes the MIT-BIH Atrial Fibrillation Database to detect atrial 
 
 ## 🖼️ ECG Signal Examples
 
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Electrocardiogram.png" alt="Normal ECG" width="400"/>
-  <br>
-  <strong>Normal Sinus Rhythm</strong>
-  <br><br>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Atrial_fibrillation.svg/512px-Atrial_fibrillation.svg.png" alt="Atrial Fibrillation ECG" width="400"/>
-  <br>
-  <strong>Atrial Fibrillation</strong>
-</p>
+### Normal vs Atrial Fibrillation
+
+**Normal ECG Pattern:**
+- Regular rhythm with consistent P-waves
+- Predictable R-R intervals
+
+**Atrial Fibrillation Pattern:**
+- Irregular rhythm without clear P-waves
+- Variable R-R intervals
+- Chaotic atrial activity
 
 ---
 
