@@ -1,10 +1,7 @@
 # MIT-BIH Atrial Fibrillation Detection Project
 
-
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Electrocardiogram.png" alt="ECG Example" width="400"/>
-  <br><br>
-  <img src="https://raw.githubusercontent.com/mitdbg/ecg-figures/main/afib_example.png" alt="AFib Example" width="400"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Electrocardiogram.png" alt="ECG Example" width="500"/>
 </p>
 
 <p align="center">
@@ -23,12 +20,14 @@ This project analyzes the MIT-BIH Atrial Fibrillation Database to detect atrial 
 
 ## 🖼️ ECG Signal Examples
 
-| Normal ECG | Atrial Fibrillation ECG |
-|:----------:|:----------------------:|
-| ![Normal ECG](https://upload.wikimedia.org/wikipedia/commons/2/2e/Electrocardiogram.png) | ![Atrial Fibrillation ECG](https://raw.githubusercontent.com/mitdbg/ecg-figures/main/afib_example.png) |
-
 <p align="center">
-  <b>Normal ECG</b> &nbsp;&nbsp;&nbsp;&nbsp; <b style="color:#b71c1c;">Atrial Fibrillation</b>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Electrocardiogram.png" alt="Normal ECG" width="400"/>
+  <br>
+  <strong>Normal Sinus Rhythm</strong>
+  <br><br>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Atrial_fibrillation.svg/512px-Atrial_fibrillation.svg.png" alt="Atrial Fibrillation ECG" width="400"/>
+  <br>
+  <strong>Atrial Fibrillation</strong>
 </p>
 
 ---
@@ -68,7 +67,7 @@ This project analyzes the MIT-BIH Atrial Fibrillation Database to detect atrial 
 ---
 
 ## 📝 How to Run
-1. Clone this repo and open <span style="background:#e0e7ef; color:#1a237e; padding:2px 8px; border-radius:8px; font-weight:bold;">427_Project (3).ipynb</span> in Jupyter or VS Code.
+1. Clone this repo and open `427_Project (3).ipynb` in Jupyter or VS Code.
 2. Ensure you have Python 3.8+ and the required packages (see notebook for `pip install` commands).
 3. Download the MIT-BIH AFDB ZIP and place it in the project folder.
 4. Run all cells in order for full preprocessing, training, and evaluation.
@@ -81,8 +80,8 @@ This project analyzes the MIT-BIH Atrial Fibrillation Database to detect atrial 
 ---
 
 ## 📈 Example Results
-- <span style="background:#f1f8e9; color:#33691e; padding:2px 8px; border-radius:8px; font-weight:bold;">Random Forest</span>: Segment-level AF detection with ROC AUC and confusion matrix.
-- <span style="background:#fce4ec; color:#ad1457; padding:2px 8px; border-radius:8px; font-weight:bold;">1D CNN</span>: End-to-end learning from raw ECG segments, with learning curves and evaluation metrics.
+- **Random Forest**: Segment-level AF detection with ROC AUC and confusion matrix.
+- **1D CNN**: End-to-end learning from raw ECG segments, with learning curves and evaluation metrics.
 
 ---
 
